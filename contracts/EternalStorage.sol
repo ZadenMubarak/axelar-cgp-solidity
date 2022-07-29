@@ -31,7 +31,7 @@ contract EternalStorage {
         return _bytesStorage[key];
     }
 
-    function getBool(bytes32 key) public view returns (bool) {
+    function getBool(bytes32 key) public view returns (uint256) {
         return _boolStorage[key];
     }
 
